@@ -1,0 +1,7 @@
+[3904:8484:0529/163220.864:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[12200:18308:0529/163220.960:WARNING:ui\gl\direct_composition_support.cc:1195] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[3904:8484:0529/163228.383:INFO:CONSOLE:2] "WebSocket Client Connected", source: https://www.milkywayidle.com/static/js/main.6cfe15ca.chunk.js (2)
+[19232:9976:0529/163734.811:WARNING:net\spdy\spdy_session.cc:2729] Received RST for invalid stream1
+[19232:9976:0529/163734.811:WARNING:net\spdy\spdy_session.cc:2729] Received RST for invalid stream1
+[19232:6328:0529/163737.086:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[19232:6328:0529/163737.087:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
