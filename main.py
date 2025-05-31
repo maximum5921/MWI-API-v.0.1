@@ -2,12 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 from config import CHROME_USER_DATA_DIR
-from scraper.login import is_logged_in, load_cookies, save_cookies, do_login, select_character, click_enter_game_if_exists
+from scraper.login import is_logged_in, do_login, select_character, click_enter_game_if_exists
 from scraper.market import go_to_market
 from scraper.utils import reset_index
 from db.handler import create_table, clear_data
 from export_data.export import export_to_json
-
+import os
 
 def main():
     total_start = time.time()
@@ -15,7 +15,10 @@ def main():
     print("\U0001F680 เริ่มต้นระบบ")
     options = Options()
     options.add_argument("--window-size=1920,1080") 
+    # options.add_argument('--headless')
+    options.add_argument(f"--user-data-dir={os.path.abspath('chrome_user_data')}")
     driver = webdriver.Chrome(options=options)
+    options.add_argument(f"--user-data-dir={CHROME_USER_DATA_DIR}")
    
     driver.get("https://www.milkywayidle.com/")
     

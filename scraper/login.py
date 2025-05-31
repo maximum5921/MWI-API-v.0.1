@@ -6,24 +6,9 @@ from config import EMAIL, PASSWORD
 import json
 import os
 
-COOKIE_PATH = "cookies.json"
-
-def save_cookies(driver):
-    with open(COOKIE_PATH, "w") as file:
-        json.dump(driver.get_cookies(), file)
-    print("💾 บันทึก cookies สำเร็จ")
-
-def load_cookies(driver):
-    if not os.path.exists(COOKIE_PATH):
-        raise Exception("ไม่พบไฟล์ cookies")
-    with open(COOKIE_PATH, "r") as file:
-        cookies = json.load(file)
-    for cookie in cookies:
-        driver.add_cookie(cookie)
-        
 def is_logged_in(driver):
     
-    wait = WebDriverWait(driver, 3)
+    wait = WebDriverWait(driver, 1)
     try:
         wait.until(EC.visibility_of_element_located((By.XPATH, '//button[normalize-space()="Login"]')))
         return False
