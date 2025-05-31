@@ -3,11 +3,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 from config import EMAIL, PASSWORD
-import json
-import os
+
 
 def is_logged_in(driver):
-    
     wait = WebDriverWait(driver, 1)
     try:
         wait.until(EC.visibility_of_element_located((By.XPATH, '//button[normalize-space()="Login"]')))

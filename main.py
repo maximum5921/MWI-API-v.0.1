@@ -21,14 +21,6 @@ def main():
     options.add_argument(f"--user-data-dir={CHROME_USER_DATA_DIR}")
    
     driver.get("https://www.milkywayidle.com/")
-    
-    if is_logged_in(driver):
-        print("🔐 กำลัง login อัตโนมัติ")
-        do_login(driver)
-    else:
-        print("✅ Login อยู่แล้ว")
-        click_enter_game_if_exists(driver)
-
     # Reset index
     t = time.time()
     reset_index()
@@ -36,9 +28,8 @@ def main():
 
     # Login
     t = time.time()
-    logged_in = is_logged_in(driver)  # เรียกครั้งเดียวเท่านั้น
 
-    if logged_in:
+    if is_logged_in(driver):
         print("✅ Login อยู่แล้ว")
         click_enter_game_if_exists(driver)
     else:

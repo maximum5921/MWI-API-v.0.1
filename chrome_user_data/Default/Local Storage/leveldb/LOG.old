@@ -1,5 +1,3 @@
-2025/05/31-14:26:20.436 2d2c Reusing MANIFEST C:\Users\vangu\Desktop\MWI-API\chrome_user_data\Default\Local Storage\leveldb/MANIFEST-000001
-2025/05/31-14:26:20.441 2d2c Recovering log #3
-2025/05/31-14:26:20.446 2d2c Level-0 table #3: started
-2025/05/31-14:26:20.454 2d2c Level-0 table #3: 580410 bytes OK
-2025/05/31-14:26:20.458 2d2c Delete type=0 #3
+2025/05/31-14:42:23.355 4120 Reusing MANIFEST C:\Users\vangu\Desktop\MWI-API\chrome_user_data\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/31-14:42:23.358 4120 Recovering log #4
+2025/05/31-14:42:23.360 4120 Reusing old log C:\Users\vangu\Desktop\MWI-API\chrome_user_data\Default\Local Storage\leveldb/000004.log 

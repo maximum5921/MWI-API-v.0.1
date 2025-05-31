@@ -1,13 +1,11 @@
-[11736:20860:0531/143514.398:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
-[14384:24660:0531/143514.488:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
-[23212:20284:0531/143514.494:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
-[4308:16196:0531/143514.627:VERBOSE1:components\viz\service\main\viz_main_impl.cc:85] VizNullHypothesis is disabled (not a warning)
-[20592:11028:0531/143514.761:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
-[5280:22832:0531/143514.794:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
-[17416:6760:0531/143515.605:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
-[17400:19036:0531/143515.641:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
-[11736:20860:0531/143530.184:INFO:CONSOLE:2] "WebSocket Client Connected", source: https://www.milkywayidle.com/static/js/main.6cfe15ca.chunk.js (2)
-[4308:16196:0531/143531.352:ERROR:gpu\command_buffer\service\shared_image\shared_image_manager.cc:401] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[4308:16196:0531/143531.353:ERROR:gpu\command_buffer\service\shared_image\shared_image_manager.cc:401] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[15812:24984:0531/143531.405:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[15812:24984:0531/143531.405:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[5604:11672:0531/144255.420:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[6444:5844:0531/144255.501:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[16312:7672:0531/144255.502:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[384:8692:0531/144255.644:VERBOSE1:components\viz\service\main\viz_main_impl.cc:85] VizNullHypothesis is disabled (not a warning)
+[20452:12736:0531/144255.772:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[5092:1708:0531/144255.862:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[17740:16340:0531/144256.717:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[3480:24396:0531/144256.744:INFO:third_party\webrtc\system_wrappers\source\cpu_info.cc:56] Available number of cores: 12
+[5604:11672:0531/144300.410:INFO:CONSOLE:2] "WebSocket Client Connected", source: https://www.milkywayidle.com/static/js/main.6cfe15ca.chunk.js (2)
+[6268:19760:0531/144305.399:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[6268:19760:0531/144305.399:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

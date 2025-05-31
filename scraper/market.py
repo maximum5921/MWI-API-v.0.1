@@ -69,7 +69,7 @@ def click_items_in_market(driver):
     scrollables = driver.find_elements(By.CSS_SELECTOR, ".TabPanel_tabPanel__tXMJF")
     time.sleep(1)
     c =0
-    for item in items[1:182]:
+    for item in items[1:3]:
         item.click()
         time.sleep(0.5)
         c +=1

@@ -1,4 +1,15 @@
 {
-    "exported_at": "2025-05-31 14:35:33",
-    "items": []
+    "exported_at": "2025-05-31 14:43:07",
+    "items": [
+        {
+            "name": "Bag Of 10 Cowbells",
+            "ask_price": 215000,
+            "bid_price": 210000
+        },
+        {
+            "name": "Milk",
+            "ask_price": 52,
+            "bid_price": 50
+        }
+    ]
 }
