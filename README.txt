@@ -2,9 +2,8 @@
 This Code For pull price lastest from MarketPrice(Resource)
 
 Setting 
-Go to config.py to add Email And Password 
+Go to config.py to add Email And Password (If not Login)
 
-click GetPrice.bat to Run Code
 
 Result
 

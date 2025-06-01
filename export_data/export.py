@@ -1,22 +1,79 @@
 import sqlite3
-import json
 import os
+import json
 from datetime import datetime
 from config import DATABASE_PATH, EXPORT_PATH
 
 
+def create_table():
+    """
+    Creates the 'market_data' table in the SQLite database if it doesn't already exist.
+    If the database file does not exist, it will be created.
+    """
+    # Check if the database file exists; if not, it's a new database
+    is_new_db = not os.path.exists(DATABASE_PATH)
+    conn = sqlite3.connect(DATABASE_PATH)
+    c = conn.cursor()
+    if is_new_db:
+        print("Creating new database and table...")
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS market_data (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+            name TEXT,
+            ask_price INTEGER,
+            bid_price INTEGER
+        )
+    ''')
+    conn.commit()
+    conn.close()
+
+def save_data(name, ask_price, bid_price):
+    """
+    Saves market data (name, ask_price, bid_price) into the 'market_data' table.
+
+    Args:
+        name (str): The name of the market item.
+        ask_price (int): The ask price of the item.
+        bid_price (int): The bid price of the item.
+    """
+    conn = sqlite3.connect(DATABASE_PATH)
+    c = conn.cursor()
+    c.execute('''
+        INSERT INTO market_data (name, ask_price, bid_price) VALUES (?, ?, ?)
+    ''', (name, ask_price, bid_price))
+    conn.commit()
+    conn.close()
+
+def clear_data():
+    """
+    Clears all data from the 'market_data' table.
+    It also resets the AUTOINCREMENT sequence for the 'id' column.
+    """
+    conn = sqlite3.connect(DATABASE_PATH)
+    c = conn.cursor()
+    # Delete all rows from the table but keep the table structure
+    c.execute("DELETE FROM market_data")
+    # Reset the AUTOINCREMENT sequence for the id column
+    c.execute("DELETE FROM sqlite_sequence WHERE name='market_data'")
+    conn.commit()
+    conn.close()
 
 def export_to_json():
-    # เชื่อมต่อฐานข้อมูล
+    """
+    Exports all market data from the 'market_data' table to a JSON file.
+    The JSON file will include a timestamp of when it was exported and a list of items.
+    """
+    # Connect to the database
     conn = sqlite3.connect(DATABASE_PATH)
     cursor = conn.cursor()
 
-    # ดึงข้อมูลทั้งหมด
+    # Fetch all data
     cursor.execute("SELECT name, ask_price, bid_price FROM market_data")
     rows = cursor.fetchall()
     conn.close()
 
-    # สร้างโครงสร้างข้อมูล
+    # Create data structure for JSON
     data = {
         "exported_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "items": []
@@ -29,12 +86,12 @@ def export_to_json():
             "bid_price": row[2]
         })
 
-    # ลบไฟล์เก่าถ้ามี
+    # Remove old file if it exists
     if os.path.exists(EXPORT_PATH):
         os.remove(EXPORT_PATH)
 
-    # บันทึกเป็น JSON
+    # Save as JSON
     with open(EXPORT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-    print(f"📦 ส่งออกข้อมูลเป็นไฟล์ {EXPORT_PATH} แล้ว")
+    print(f"📦 Data exported to {EXPORT_PATH}")

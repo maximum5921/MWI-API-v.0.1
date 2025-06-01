@@ -1,70 +1,81 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
+import os
+# Assuming these modules exist and are correctly configured in your project
 from config import CHROME_USER_DATA_DIR
 from scraper.login import is_logged_in, do_login, select_character, click_enter_game_if_exists
 from scraper.market import go_to_market
 from scraper.utils import reset_index
 from db.handler import create_table, clear_data
 from export_data.export import export_to_json
-import os
+
 
 def main():
+    """
+    Main function to orchestrate the web scraping process.
+    It initializes the WebDriver, performs login, character selection,
+    data management (resetting index, clearing/creating database table),
+    navigates to the marketplace to scrape data, and finally exports data to JSON.
+    """
     total_start = time.time()
 
-    print("\U0001F680 เริ่มต้นระบบ")
+    print("🚀 Starting the system")
     options = Options()
-    options.add_argument("--window-size=1920,1080") 
-    # options.add_argument('--headless')
+    options.add_argument("--window-size=1920,1080")
+    # Uncomment the line below to run in headless mode (without opening a browser window)
+    options.add_argument('--headless')
+    # Set user data directory for Chrome to persist login sessions and settings
     options.add_argument(f"--user-data-dir={os.path.abspath('chrome_user_data')}")
     driver = webdriver.Chrome(options=options)
-    options.add_argument(f"--user-data-dir={CHROME_USER_DATA_DIR}")
-   
+    # This line seems redundant if the above line is already setting user-data-dir
+    # options.add_argument(f"--user-data-dir={CHROME_USER_DATA_DIR}")
+
     driver.get("https://www.milkywayidle.com/")
-    # Reset index
+
+    # Reset index for scraping
     t = time.time()
     reset_index()
-    print(f"\U0001F9F9 Reset index ใช้เวลา {time.time() - t:.2f} วินาที")
+    print(f"🧹 Reset index took {time.time() - t:.2f} seconds")
 
-    # Login
+    # Login process
     t = time.time()
-
     if is_logged_in(driver):
-        print("✅ Login อยู่แล้ว")
+        print("✅ Already logged in")
         click_enter_game_if_exists(driver)
     else:
-        print("🔐 กำลัง login อัตโนมัติ")
+        print("🔐 Performing automatic login")
         do_login(driver)
-    print(f"🔑 การเข้าสู่ระบบใช้เวลา {time.time() - t:.2f} วินาที")
+    print(f"🔑 Login process took {time.time() - t:.2f} seconds")
 
-    # เลือกตัวละคร
+    # Character selection
     t = time.time()
     select_character(driver)
-    print(f"\U0001F9D9 เลือกตัวละครใช้เวลา {time.time() - t:.2f} วินาที")
+    print(f"🧑‍🚀 Character selection took {time.time() - t:.2f} seconds")
 
-    # จัดการฐานข้อมูล
+    # Database management
     t = time.time()
-    clear_data()
-    create_table()
-    print(f"\U0001F5C3️ จัดการฐานข้อมูลใช้เวลา {time.time() - t:.2f} วินาที")
+    clear_data() # Clear existing data
+    create_table() # Ensure table exists
+    print(f"🗄️ Database management took {time.time() - t:.2f} seconds")
 
-    # ไปหน้า Marketplace และดึงข้อมูล
+    # Navigate to Marketplace and fetch data
     t = time.time()
     go_to_market(driver)
-    print(f"\U0001F6D2 เข้า Marketplace และดึงข้อมูลใช้เวลา {time.time() - t:.2f} วินาที")
+    print(f"🛒 Entering Marketplace and fetching data took {time.time() - t:.2f} seconds")
 
-    # ปิดเบราว์เซอร์
+    # Close the browser
     t = time.time()
     driver.quit()
-    print(f"\U0001F6D1 ปิดเบราว์เซอร์ใช้เวลา {time.time() - t:.2f} วินาที")
+    print(f"👋 Closing browser took {time.time() - t:.2f} seconds")
 
-    #ส่งออกข้อมูลจาก database เป็น json
+    # Export data from database to JSON
     t = time.time()
     export_to_json()
-    print(f"\U0001F6D1 ส่งออกข้อมูลจาก database ใช้เวลา {time.time() - t:.2f} วินาที")
+    print(f"📤 Exporting data from database took {time.time() - t:.2f} seconds")
 
     total_end = time.time()
-    print(f"\n⏱️ เวลารวมทั้งหมด: {total_end - total_start:.2f} วินาที")
+    print(f"\n⏱️ Total time elapsed: {total_end - total_start:.2f} seconds")
 
 if __name__ == "__main__":
     main()

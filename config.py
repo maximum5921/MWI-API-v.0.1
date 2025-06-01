@@ -1,5 +1,5 @@
-EMAIL = "vixaw13002@betzenn.com"
-PASSWORD = "Api1234"
+EMAIL = "   "
+PASSWORD = "   "
 CHROME_USER_DATA_DIR = "chrome_user_data"
 DATABASE_PATH = "milky_data.db"
 EXPORT_PATH = "marketmwi.json"
