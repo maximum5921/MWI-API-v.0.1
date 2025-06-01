@@ -1,5 +1,5 @@
 {
-    "exported_at": "2025-05-31 14:53:21",
+    "exported_at": "2025-06-01 09:49:07",
     "items": [
         {
             "name": "Bag Of 10 Cowbells",
@@ -8,8 +8,18 @@
         },
         {
             "name": "Milk",
-            "ask_price": 52,
+            "ask_price": 54,
             "bid_price": 50
+        },
+        {
+            "name": "Verdant Milk",
+            "ask_price": 100,
+            "bid_price": 96
+        },
+        {
+            "name": "Azure Milk",
+            "ask_price": 125,
+            "bid_price": 115
         }
     ]
 }
