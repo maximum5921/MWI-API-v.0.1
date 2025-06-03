@@ -1,25 +1,25 @@
 {
-    "exported_at": "2025-06-03 13:25:02",
+    "exported_at": "2025-06-03 22:11:11",
     "items": [
         {
             "name": "Bag Of 10 Cowbells",
-            "ask_price": 225000,
-            "bid_price": 220000
+            "ask_price": 230000,
+            "bid_price": 225000
         },
         {
             "name": "Milk",
-            "ask_price": 58,
+            "ask_price": 56,
             "bid_price": 52
         },
         {
             "name": "Verdant Milk",
-            "ask_price": 92,
-            "bid_price": 90
+            "ask_price": 86,
+            "bid_price": 84
         },
         {
             "name": "Azure Milk",
             "ask_price": 120,
-            "bid_price": 115
+            "bid_price": 110
         },
         {
             "name": "Burble Milk",
@@ -28,23 +28,23 @@
         },
         {
             "name": "Crimson Milk",
-            "ask_price": 200,
-            "bid_price": 195
+            "ask_price": 205,
+            "bid_price": 200
         },
         {
             "name": "Rainbow Milk",
-            "ask_price": 215,
-            "bid_price": 205
+            "ask_price": 220,
+            "bid_price": 210
         },
         {
             "name": "Holy Milk",
-            "ask_price": 370,
-            "bid_price": 360
+            "ask_price": 360,
+            "bid_price": 350
         },
         {
             "name": "Cheese",
             "ask_price": 255,
-            "bid_price": 245
+            "bid_price": 230
         },
         {
             "name": "Verdant Cheese",
@@ -53,7 +53,7 @@
         },
         {
             "name": "Azure Cheese",
-            "ask_price": 500,
+            "ask_price": 520,
             "bid_price": 490
         },
         {
@@ -63,13 +63,13 @@
         },
         {
             "name": "Crimson Cheese",
-            "ask_price": 540,
-            "bid_price": 520
+            "ask_price": 500,
+            "bid_price": 470
         },
         {
             "name": "Rainbow Cheese",
-            "ask_price": 760,
-            "bid_price": 740
+            "ask_price": 800,
+            "bid_price": 780
         },
         {
             "name": "Holy Cheese",
@@ -78,63 +78,63 @@
         },
         {
             "name": "Log",
-            "ask_price": 28,
-            "bid_price": 27
+            "ask_price": 32,
+            "bid_price": 31
         },
         {
             "name": "Birch Log",
             "ask_price": 45,
-            "bid_price": 43
-        },
-        {
-            "name": "Cedar Log",
-            "ask_price": 60,
-            "bid_price": 58
-        },
-        {
-            "name": "Purpleheart Log",
-            "ask_price": 38,
-            "bid_price": 34
-        },
-        {
-            "name": "Ginkgo Log",
-            "ask_price": 30,
-            "bid_price": 29
-        },
-        {
-            "name": "Redwood Log",
-            "ask_price": 46,
             "bid_price": 44
         },
         {
+            "name": "Cedar Log",
+            "ask_price": 76,
+            "bid_price": 68
+        },
+        {
+            "name": "Purpleheart Log",
+            "ask_price": 39,
+            "bid_price": 38
+        },
+        {
+            "name": "Ginkgo Log",
+            "ask_price": 29,
+            "bid_price": 28
+        },
+        {
+            "name": "Redwood Log",
+            "ask_price": 44,
+            "bid_price": 43
+        },
+        {
             "name": "Arcane Log",
-            "ask_price": 360,
-            "bid_price": 350
+            "ask_price": 370,
+            "bid_price": 360
         },
         {
             "name": "Lumber",
             "ask_price": 205,
-            "bid_price": 195
+            "bid_price": 200
         },
         {
             "name": "Birch Lumber",
-            "ask_price": 330,
+            "ask_price": 350,
             "bid_price": 320
         },
         {
             "name": "Cedar Lumber",
-            "ask_price": 580,
-            "bid_price": 560
+            "ask_price": 540,
+            "bid_price": 520
         },
         {
             "name": "Purpleheart Lumber",
-            "ask_price": 560,
-            "bid_price": 540
+            "ask_price": 600,
+            "bid_price": 580
         },
         {
             "name": "Ginkgo Lumber",
-            "ask_price": 560,
-            "bid_price": 540
+            "ask_price": 580,
+            "bid_price": 560
         },
         {
             "name": "Redwood Lumber",
@@ -148,22 +148,22 @@
         },
         {
             "name": "Rough Hide",
-            "ask_price": 49,
+            "ask_price": 43,
             "bid_price": 42
         },
         {
             "name": "Reptile Hide",
-            "ask_price": 9,
-            "bid_price": 7
+            "ask_price": 10,
+            "bid_price": 8
         },
         {
             "name": "Gobo Hide",
             "ask_price": 14,
-            "bid_price": 13
+            "bid_price": 12
         },
         {
             "name": "Beast Hide",
-            "ask_price": 23,
+            "ask_price": 21,
             "bid_price": 20
         },
         {
@@ -173,28 +173,28 @@
         },
         {
             "name": "Rough Leather",
-            "ask_price": 250,
-            "bid_price": 245
+            "ask_price": 260,
+            "bid_price": 250
         },
         {
             "name": "Reptile Leather",
             "ask_price": 330,
-            "bid_price": 320
+            "bid_price": 310
         },
         {
             "name": "Gobo Leather",
-            "ask_price": 430,
-            "bid_price": 410
+            "ask_price": 490,
+            "bid_price": 480
         },
         {
             "name": "Beast Leather",
-            "ask_price": 660,
-            "bid_price": 640
+            "ask_price": 700,
+            "bid_price": 660
         },
         {
             "name": "Umbral Leather",
-            "ask_price": 1350,
-            "bid_price": 1300
+            "ask_price": 1400,
+            "bid_price": 1350
         },
         {
             "name": "Cotton",
@@ -203,43 +203,43 @@
         },
         {
             "name": "Flax",
-            "ask_price": 58,
-            "bid_price": 56
+            "ask_price": 60,
+            "bid_price": 54
         },
         {
             "name": "Bamboo Branch",
-            "ask_price": 40,
-            "bid_price": 37
+            "ask_price": 37,
+            "bid_price": 36
         },
         {
             "name": "Cocoon",
-            "ask_price": 155,
-            "bid_price": 135
+            "ask_price": 175,
+            "bid_price": 160
         },
         {
             "name": "Radiant Fiber",
-            "ask_price": 320,
-            "bid_price": 310
+            "ask_price": 330,
+            "bid_price": 320
         },
         {
             "name": "Cotton Fabric",
-            "ask_price": 255,
-            "bid_price": 230
+            "ask_price": 250,
+            "bid_price": 240
         },
         {
             "name": "Linen Fabric",
-            "ask_price": 390,
-            "bid_price": 360
+            "ask_price": 410,
+            "bid_price": 380
         },
         {
             "name": "Bamboo Fabric",
-            "ask_price": 225,
+            "ask_price": 220,
             "bid_price": 215
         },
         {
             "name": "Silk Fabric",
             "ask_price": 1050,
-            "bid_price": 980
+            "bid_price": 1000
         },
         {
             "name": "Radiant Fabric",
@@ -248,48 +248,48 @@
         },
         {
             "name": "Egg",
-            "ask_price": 30,
-            "bid_price": 29
+            "ask_price": 29,
+            "bid_price": 28
         },
         {
             "name": "Wheat",
-            "ask_price": 32,
-            "bid_price": 31
+            "ask_price": 31,
+            "bid_price": 29
         },
         {
             "name": "Sugar",
-            "ask_price": 14,
+            "ask_price": 13,
             "bid_price": 12
         },
         {
             "name": "Blueberry",
             "ask_price": 37,
-            "bid_price": 35
+            "bid_price": 34
         },
         {
             "name": "Blackberry",
-            "ask_price": 43,
-            "bid_price": 42
+            "ask_price": 48,
+            "bid_price": 45
         },
         {
             "name": "Strawberry",
-            "ask_price": 54,
-            "bid_price": 52
+            "ask_price": 60,
+            "bid_price": 56
         },
         {
             "name": "Mooberry",
-            "ask_price": 100,
-            "bid_price": 98
+            "ask_price": 105,
+            "bid_price": 100
         },
         {
             "name": "Marsberry",
-            "ask_price": 100,
-            "bid_price": 98
+            "ask_price": 105,
+            "bid_price": 100
         },
         {
             "name": "Spaceberry",
-            "ask_price": 180,
-            "bid_price": 170
+            "ask_price": 170,
+            "bid_price": 165
         },
         {
             "name": "Apple",
@@ -308,13 +308,13 @@
         },
         {
             "name": "Peach",
-            "ask_price": 105,
+            "ask_price": 110,
             "bid_price": 100
         },
         {
             "name": "Dragon Fruit",
-            "ask_price": 235,
-            "bid_price": 230
+            "ask_price": 240,
+            "bid_price": 235
         },
         {
             "name": "Star Fruit",
@@ -323,28 +323,28 @@
         },
         {
             "name": "Arabica Coffee Bean",
-            "ask_price": 145,
-            "bid_price": 140
+            "ask_price": 160,
+            "bid_price": 155
         },
         {
             "name": "Robusta Coffee Bean",
-            "ask_price": 120,
-            "bid_price": 115
+            "ask_price": 125,
+            "bid_price": 120
         },
         {
             "name": "Liberica Coffee Bean",
-            "ask_price": 380,
-            "bid_price": 370
+            "ask_price": 390,
+            "bid_price": 380
         },
         {
             "name": "Excelsa Coffee Bean",
-            "ask_price": 460,
-            "bid_price": 450
+            "ask_price": 470,
+            "bid_price": 460
         },
         {
             "name": "Fieriosa Coffee Bean",
             "ask_price": 470,
-            "bid_price": 450
+            "bid_price": 460
         },
         {
             "name": "Spacia Coffee Bean",
@@ -353,8 +353,8 @@
         },
         {
             "name": "Green Tea Leaf",
-            "ask_price": 10,
-            "bid_price": 9
+            "ask_price": 11,
+            "bid_price": 10
         },
         {
             "name": "Black Tea Leaf",
@@ -363,8 +363,8 @@
         },
         {
             "name": "Burble Tea Leaf",
-            "ask_price": 34,
-            "bid_price": 33
+            "ask_price": 33,
+            "bid_price": 32
         },
         {
             "name": "Moolong Tea Leaf",
@@ -373,23 +373,23 @@
         },
         {
             "name": "Red Tea Leaf",
-            "ask_price": 50,
+            "ask_price": 49,
             "bid_price": 48
         },
         {
             "name": "Emp Tea Leaf",
-            "ask_price": 295,
-            "bid_price": 290
+            "ask_price": 310,
+            "bid_price": 300
         },
         {
             "name": "Catalyst Of Coinification",
-            "ask_price": 2900,
-            "bid_price": 2800
+            "ask_price": 2950,
+            "bid_price": 2850
         },
         {
             "name": "Catalyst Of Decomposition",
-            "ask_price": 3400,
-            "bid_price": 3300
+            "ask_price": 3300,
+            "bid_price": 3200
         },
         {
             "name": "Catalyst Of Transmutation",
@@ -398,32 +398,32 @@
         },
         {
             "name": "Prime Catalyst",
-            "ask_price": 92000,
-            "bid_price": 90000
+            "ask_price": 100000,
+            "bid_price": 98000
         },
         {
             "name": "Snake Fang",
-            "ask_price": 3800,
-            "bid_price": 3700
+            "ask_price": 3900,
+            "bid_price": 3800
         },
         {
             "name": "Shoebill Feather",
-            "ask_price": 66000,
-            "bid_price": 64000
+            "ask_price": 68000,
+            "bid_price": 66000
         },
         {
             "name": "Snail Shell",
             "ask_price": 8400,
-            "bid_price": 8000
+            "bid_price": 8200
         },
         {
             "name": "Crab Pincer",
             "ask_price": 7600,
-            "bid_price": 7400
+            "bid_price": 7200
         },
         {
             "name": "Turtle Shell",
-            "ask_price": 9600,
+            "ask_price": 9800,
             "bid_price": 9400
         },
         {
@@ -433,8 +433,8 @@
         },
         {
             "name": "Treant Bark",
-            "ask_price": 28500,
-            "bid_price": 28000
+            "ask_price": 28000,
+            "bid_price": 27500
         },
         {
             "name": "Centaur Hoof",
@@ -443,18 +443,18 @@
         },
         {
             "name": "Luna Wing",
-            "ask_price": 215000,
-            "bid_price": 210000
+            "ask_price": 220000,
+            "bid_price": 215000
         },
         {
             "name": "Gobo Rag",
-            "ask_price": 380000,
-            "bid_price": 370000
+            "ask_price": 400000,
+            "bid_price": 390000
         },
         {
             "name": "Goggles",
-            "ask_price": 88000,
-            "bid_price": 70000
+            "ask_price": 86000,
+            "bid_price": 84000
         },
         {
             "name": "Magnifying Glass",
@@ -468,8 +468,8 @@
         },
         {
             "name": "Icy Cloth",
-            "ask_price": 62000,
-            "bid_price": 60000
+            "ask_price": 64000,
+            "bid_price": 62000
         },
         {
             "name": "Flaming Cloth",
@@ -478,8 +478,8 @@
         },
         {
             "name": "Sorcerer's Sole",
-            "ask_price": 120000,
-            "bid_price": 115000
+            "ask_price": 115000,
+            "bid_price": 110000
         },
         {
             "name": "Chrono Sphere",
@@ -493,8 +493,8 @@
         },
         {
             "name": "Panda Fluff",
-            "ask_price": 90000,
-            "bid_price": 88000
+            "ask_price": 88000,
+            "bid_price": 86000
         },
         {
             "name": "Black Bear Fluff",
@@ -518,18 +518,18 @@
         },
         {
             "name": "Magnet",
-            "ask_price": 330000,
-            "bid_price": 320000
+            "ask_price": 350000,
+            "bid_price": 330000
         },
         {
             "name": "Stalactite Shard",
-            "ask_price": 660000,
-            "bid_price": 640000
+            "ask_price": 680000,
+            "bid_price": 660000
         },
         {
             "name": "Living Granite",
-            "ask_price": 660000,
-            "bid_price": 640000
+            "ask_price": 680000,
+            "bid_price": 660000
         },
         {
             "name": "Colossus Core",
@@ -544,7 +544,7 @@
         {
             "name": "Werewolf Claw",
             "ask_price": 680000,
-            "bid_price": 660000
+            "bid_price": 640000
         },
         {
             "name": "Revenant Anima",
@@ -553,13 +553,13 @@
         },
         {
             "name": "Soul Fragment",
-            "ask_price": 1250000,
-            "bid_price": 1200000
+            "ask_price": 1300000,
+            "bid_price": 1250000
         },
         {
             "name": "Infernal Ember",
-            "ask_price": 1300000,
-            "bid_price": 1250000
+            "ask_price": 1350000,
+            "bid_price": 1300000
         },
         {
             "name": "Demonic Core",
@@ -568,13 +568,13 @@
         },
         {
             "name": "Griffin Leather",
-            "ask_price": 940000,
-            "bid_price": 920000
+            "ask_price": 960000,
+            "bid_price": 940000
         },
         {
             "name": "Manticore Sting",
             "ask_price": 2850000,
-            "bid_price": 2750000
+            "bid_price": 2800000
         },
         {
             "name": "Jackalope Antler",
@@ -583,23 +583,23 @@
         },
         {
             "name": "Dodocamel Plume",
-            "ask_price": 8000000,
-            "bid_price": 7800000
+            "ask_price": 8600000,
+            "bid_price": 8000000
         },
         {
             "name": "Griffin Talon",
-            "ask_price": 5200000,
+            "ask_price": 5400000,
             "bid_price": 5000000
         },
         {
             "name": "Acrobat's Ribbon",
-            "ask_price": 9400000,
-            "bid_price": 9200000
+            "ask_price": 9600000,
+            "bid_price": 9400000
         },
         {
             "name": "Magician's Cloth",
-            "ask_price": 9400000,
-            "bid_price": 9200000
+            "ask_price": 9600000,
+            "bid_price": 9400000
         },
         {
             "name": "Chaotic Chain",
@@ -609,7 +609,7 @@
         {
             "name": "Cursed Ball",
             "ask_price": 8000000,
-            "bid_price": 7600000
+            "bid_price": 7800000
         },
         {
             "name": "Royal Cloth",
@@ -628,8 +628,8 @@
         },
         {
             "name": "Regal Jewel",
-            "ask_price": 16500000,
-            "bid_price": 16000000
+            "ask_price": 16000000,
+            "bid_price": 15500000
         },
         {
             "name": "Sundering Jewel",
@@ -663,7 +663,7 @@
         },
         {
             "name": "Kraken Fang",
-            "ask_price": 19000000,
+            "ask_price": 18500000,
             "bid_price": 18000000
         },
         {
@@ -673,8 +673,8 @@
         },
         {
             "name": "Thread Of Expertise",
-            "ask_price": 6800000,
-            "bid_price": 6600000
+            "ask_price": 7000000,
+            "bid_price": 6800000
         },
         {
             "name": "Branch Of Insight",
@@ -683,43 +683,43 @@
         },
         {
             "name": "Gluttonous Energy",
-            "ask_price": 9800000,
+            "ask_price": 10000000,
             "bid_price": 9600000
         },
         {
             "name": "Guzzling Energy",
-            "ask_price": 18500000,
-            "bid_price": 18000000
+            "ask_price": 20500000,
+            "bid_price": 20000000
         },
         {
             "name": "Milking Essence",
-            "ask_price": 185,
-            "bid_price": 180
+            "ask_price": 195,
+            "bid_price": 190
         },
         {
             "name": "Foraging Essence",
-            "ask_price": 180,
-            "bid_price": 175
+            "ask_price": 175,
+            "bid_price": 170
         },
         {
             "name": "Woodcutting Essence",
             "ask_price": 180,
-            "bid_price": 165
+            "bid_price": 175
         },
         {
             "name": "Cheesesmithing Essence",
-            "ask_price": 240,
+            "ask_price": 250,
             "bid_price": 235
         },
         {
             "name": "Crafting Essence",
-            "ask_price": 240,
+            "ask_price": 245,
             "bid_price": 235
         },
         {
             "name": "Tailoring Essence",
-            "ask_price": 150,
-            "bid_price": 145
+            "ask_price": 145,
+            "bid_price": 140
         },
         {
             "name": "Cooking Essence",
@@ -728,18 +728,18 @@
         },
         {
             "name": "Brewing Essence",
-            "ask_price": 160,
-            "bid_price": 155
+            "ask_price": 170,
+            "bid_price": 165
         },
         {
             "name": "Alchemy Essence",
-            "ask_price": 245,
-            "bid_price": 240
+            "ask_price": 255,
+            "bid_price": 245
         },
         {
             "name": "Enhancing Essence",
-            "ask_price": 720,
-            "bid_price": 700
+            "ask_price": 760,
+            "bid_price": 740
         },
         {
             "name": "Swamp Essence",
@@ -748,28 +748,28 @@
         },
         {
             "name": "Aqua Essence",
-            "ask_price": 19,
+            "ask_price": 21,
             "bid_price": 18
         },
         {
             "name": "Jungle Essence",
-            "ask_price": 66,
-            "bid_price": 64
+            "ask_price": 72,
+            "bid_price": 66
         },
         {
             "name": "Gobo Essence",
-            "ask_price": 43,
-            "bid_price": 41
+            "ask_price": 44,
+            "bid_price": 43
         },
         {
             "name": "Eyessence",
-            "ask_price": 78,
-            "bid_price": 76
+            "ask_price": 84,
+            "bid_price": 78
         },
         {
             "name": "Sorcerer Essence",
-            "ask_price": 120,
-            "bid_price": 115
+            "ask_price": 125,
+            "bid_price": 120
         },
         {
             "name": "Bear Essence",
@@ -803,8 +803,8 @@
         },
         {
             "name": "Enchanted Essence",
-            "ask_price": 1750,
-            "bid_price": 1700
+            "ask_price": 1700,
+            "bid_price": 1650
         },
         {
             "name": "Pirate Essence",
@@ -823,8 +823,8 @@
         },
         {
             "name": "Amber",
-            "ask_price": 25500,
-            "bid_price": 25000
+            "ask_price": 24500,
+            "bid_price": 24000
         },
         {
             "name": "Garnet",
@@ -833,13 +833,13 @@
         },
         {
             "name": "Jade",
-            "ask_price": 41000,
-            "bid_price": 40000
+            "ask_price": 40000,
+            "bid_price": 39000
         },
         {
             "name": "Amethyst",
-            "ask_price": 41000,
-            "bid_price": 40000
+            "ask_price": 40000,
+            "bid_price": 39000
         },
         {
             "name": "Moonstone",
@@ -863,28 +863,28 @@
         },
         {
             "name": "Crushed Amber",
-            "ask_price": 1600,
-            "bid_price": 1550
+            "ask_price": 1550,
+            "bid_price": 1500
         },
         {
             "name": "Crushed Garnet",
-            "ask_price": 2550,
-            "bid_price": 2500
+            "ask_price": 2500,
+            "bid_price": 2450
         },
         {
             "name": "Crushed Jade",
-            "ask_price": 2550,
-            "bid_price": 2500
+            "ask_price": 2500,
+            "bid_price": 2450
         },
         {
             "name": "Crushed Amethyst",
-            "ask_price": 2550,
-            "bid_price": 2500
+            "ask_price": 2450,
+            "bid_price": 2400
         },
         {
             "name": "Crushed Moonstone",
-            "ask_price": 2700,
-            "bid_price": 2650
+            "ask_price": 2750,
+            "bid_price": 2700
         },
         {
             "name": "Crushed Sunstone",
@@ -893,8 +893,8 @@
         },
         {
             "name": "Crushed Philosopher's Stone",
-            "ask_price": 2150000,
-            "bid_price": 2100000
+            "ask_price": 2250000,
+            "bid_price": 2200000
         },
         {
             "name": "Shard Of Protection",
@@ -903,8 +903,8 @@
         },
         {
             "name": "Mirror Of Protection",
-            "ask_price": 11000000,
-            "bid_price": 10500000
+            "ask_price": 10500000,
+            "bid_price": 10000000
         }
     ]
 }
